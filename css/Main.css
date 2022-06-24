@@ -1,0 +1,380 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.backgound{
+	background: url("../ẢNH/lava backgrtsound.png") fixed;
+	width: 100%;
+}
+.header{
+	height: 100%;
+	padding: 8px 0;
+	background-color: darkred
+}
+.logo img{
+	max-width: 150px;
+	
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	font-family: AmazDooMLeft;
+	text-decoration: none;
+	color: white;
+	font-size: 28px
+}
+.nav li a:hover{
+	opacity: 0.8
+}
+.video{
+	max-width: 100%;
+
+}
+.banner .container{
+	width: 100%
+}
+.service .container{
+	width: 100%;
+	height: 750px;
+}
+.service h1{
+	font-family: AmazDooMLeft;
+	text-align: center;
+	color: red;
+	padding: 50px;
+	font-size: 62px;
+	font-weight: normal
+}
+.sir {
+	font-family: AmazDooMLeft;
+	text-align:left;
+	color: red;
+	padding: 30px;
+	font-size: 72px;
+	font-weight: normal
+}
+.gamebox {
+	height: 24vw;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.feature-image {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 750px;
+}
+.feature-image img{
+	width: 10%;
+}
+.feature-image{
+	transition: 0.5s all ease-in-out
+}
+.box:hover .feature-image {
+	transform: scale(1.1);
+}
+.content-box h2{
+	font-family: AmazDooMLeft;
+	letter-spacing: 4px;
+	padding: 20px;
+	color: white;
+	font-size: 38px;
+	margin-top: 180px;
+	font-weight: normal
+}
+.content-box{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+}
+.content h3{
+	font-family: AmazDooMLeft;
+	width: 500px;
+	color: red;
+	font-size: 40px;
+	padding-left: 50px;
+	padding-top: 80px;
+	margin-left: 150px;
+	letter-spacing: 3px;
+	margin-top: 20px;
+	font-weight: normal
+}
+.content .text{
+	width: 500px;
+	color: white;
+	font-size: 20px;
+	padding: 0 140px 0 50px;
+	margin-left: 150px;
+	text-align: left;
+	letter-spacing: 0.7px;
+	font-weight: normal
+}
+.service-3{
+	padding: 50px 0
+}
+.service-3 h1{
+	font-family: AmazDooMLeft;
+	text-align: center;
+	color: red;
+	padding: 5px;
+	font-size: 92px;
+	letter-spacing: 5px;
+	font-weight: normal
+}
+.service-3 h2{
+	font-family: AmazDooMLeft;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 48px;
+	letter-spacing: 3px;
+	font-weight: normal
+}
+.service-3 p{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 0;
+}
+.the-gladiator img{
+	height: 100%;
+	margin-left: 40px;
+}
+.hell-knight img{
+	height: 100%;
+	margin-left: 60px;
+}
+.marauder img{
+	height: 100%;
+	margin-left: 0px;
+}
+.icon-of-sin img{
+	height: 100%;
+	margin-left: -10px;
+}
+.the-betrayer img{
+	height: 100%; 
+}
+.samuel-hayden img{
+	height: 100%;
+	margin-left: 90px;
+}
+.khan-maykr img{
+	height: 100%;
+	margin-left: 90px;
+}
+.nuoc-dau h2{
+	font-size: 30px;
+	margin-left: -25px;
+}
+.feature {
+    overflow: hidden;
+    height: 100%;
+}
+.image {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.image-banner img {
+    width:50vh;
+}
+.content-info {
+    background-color:burlywood;
+    padding: 16px;
+    border-radius: 5px;
+    width: 1000px;
+    color: red;
+	font-size: 24px;
+}
+.event:hover .image {
+    transform: scale(1.3);
+}
+
+.event {
+    cursor: pointer;
+    padding: 12px;
+    background-color: #433C3B;
+    opacity: 0.8;
+}
+
+.event-content {
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.event-info a {
+    color: rgb(255, 184, 4);
+    text-decoration: none;
+}
+
+.event-info {
+    color: #c0bfbf;
+}
+.service-4 h1{
+	font-family: AmazDooMLeft;
+	text-align: center;
+	color: red;
+	padding: 5px;
+	font-size: 92px;
+	letter-spacing: 5px;
+	font-weight: normal
+}
+.wallpapers-1{
+	padding-top: 30px
+}
+.wallpapers-1 img{
+	min-width: 10px;
+}
+.content-wallpaper li a{
+	font-family: AmazDooMLeft;
+	text-decoration: none;
+	color: RED;
+	font-size: 32px;
+	line-height: 1.1;
+}
+.content-wallpaper li a:hover{
+	color: white
+}
+.content-wallpaper li{
+	list-style: none
+}
+.content-wallpaper{
+	text-align: center
+}
+.wallpapers-1-1 img{
+	height: 10px;
+	margin-left: 90px
+}
+.concept-art{
+	padding-top: 30px
+}
+.concept-art img{
+	height: 170px;
+}
+.content-concept-art p{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	line-height: 1.1;
+}
+.content-concept-art{
+	text-align: center
+}
+.concept-art-1-1 img{
+	height: 170px;
+	margin-left: 90px
+}
+.content-concept-art1 p{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	line-height: 1.1;
+}
+.content-concept-art1{
+	text-align: center;
+	padding: 0 100px
+}
+.footer{
+	height: 400px;
+	background:black;
+}
+.logo-footer{
+	padding-top: 20px;
+	width: 100%;
+	text-align: center
+}
+.nav-footer {
+	margin: 24px;
+	list-style: none
+}
+.nav-footer li a:hover{
+	opacity: 0.8
+}
+.nav-footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px
+}
+.nav-footer li{
+	margin: 0 16px;
+	margin-bottom: 20px
+}
+.image-footer img{
+	margin: 20px;
+	height: 100px
+}
+.content-footer{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 10px;
+	padding: 10px;
+}
+.con{
+	width:500px;
+	height:500px;
+	margin:0 auto;
+	display:flex;
+	position: relative;
+}
+.con-1{
+	width:500px;
+	height:500px;
+	margin:0 auto;
+	display:flex;
+	position: relative;
+}
+.fe{
+	width: 500px;
+	height:500px;
+	overflow: hidden;
+}
+.fe img{
+	height:150%;
+}
+.fe-1{
+	width:500px;
+	height:500px;
+	overflow: hidden;
+}
+.fe-1 img{
+	height:150%;
+}
+.cont{
+	width:0px;
+	height:350px;
+	background: rgba(6,6,6,0.68);
+	color:white;
+	font-family: AmazDooMLeft;
+	font-size: 42px;
+	position:absolute;
+	top:0;
+	left:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition-duration: 2s;
+	overflow: hidden;
+}
+.con:hover .cont{
+	width:100%;
+}
+.con-1:hover .cont{
+	width:100%;
+}
+.voice{
+	color: white;
+}
